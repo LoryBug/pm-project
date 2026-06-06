@@ -1,0 +1,13 @@
+﻿# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp
+*.tmp
+
+# Tracking (personal)
+TRACKING.md
+
+# LSAI workspace metadata
+.lsai/
