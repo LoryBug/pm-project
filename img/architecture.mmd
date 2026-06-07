@@ -1,0 +1,35 @@
+graph TB
+    subgraph Runtime["Runtime BDI (Jason/AgentSpeak)"]
+        RC["runtime_coordinator"] --> CR["case_reasoner"]
+        RC --> TG["trace_guardian"]
+        RC --> CP["care_planner"]
+    end
+
+    subgraph Pipeline["LLM Pipeline (Python/DSPy)"]
+        CE["Claim Extraction"] --> RD["Rule Drafting"]
+        RD --> V["Validazione"]
+    end
+
+    subgraph WebApp["Web App (React/Vite + FastAPI)"]
+        RRC["Rule Review Console"] --> TI["Trace Inspector"]
+    end
+
+    subgraph Trace["Tracciabilità"]
+        JT["Justification Tree"]
+    end
+
+    Runtime -->|"bridge HTTP"| Pipeline
+    Pipeline -->|"bozze regole"| WebApp
+    WebApp -->|"esito revisione"| Runtime
+    Runtime -->|"export"| Trace
+
+    style RC fill:#4CAF50,color:white
+    style CR fill:#4CAF50,color:white
+    style TG fill:#4CAF50,color:white
+    style CP fill:#4CAF50,color:white
+    style CE fill:#2196F3,color:white
+    style RD fill:#2196F3,color:white
+    style V fill:#2196F3,color:white
+    style RRC fill:#FF9800,color:white
+    style TI fill:#FF9800,color:white
+    style JT fill:#9C27B0,color:white
