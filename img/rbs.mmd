@@ -1,0 +1,31 @@
+graph TD
+    L0["L0: Framework multi-agente BDI per supporto decisionale clinico tracciabile"]
+    
+    L0 --> L1a["L1: Runtime BDI (Jason/AgentSpeak)"]
+    L0 --> L1b["L1: LLM Pipeline"]
+    L0 --> L1c["L1: Web App Review"]
+    L0 --> L1d["L1: Tracciabilità e Spiegazione"]
+    
+    L1a --> L2a1["L2: Ciclo agente BDI"]
+    L2a1 --> L3a1["L3: Perceive"]
+    L2a1 --> L3a2["L3: Deliberate"]
+    L2a1 --> L3a3["L3: Means-End"]
+    L2a1 --> L3a4["L3: Execute"]
+    
+    L1a --> L2a2["L2: Agenti"]
+    L2a2 --> L3a5["runtime_coordinator"]
+    L2a2 --> L3a6["case_reasoner"]
+    L2a2 --> L3a7["trace_guardian"]
+    L2a2 --> L3a8["care_planner"]
+    
+    L1b --> L2b1["L2: Estrazione regole"]
+    L1b --> L2b2["L2: Valutazione caso"]
+    L1b --> L2b3["L2: Bridge Jason-Python"]
+    
+    L1c --> L2c1["L2: Backend API"]
+    L1c --> L2c2["L2: Frontend React"]
+    L1c --> L2c3["L2: Notifiche"]
+    
+    L1d --> L2d1["L2: Justification Tree"]
+    L1d --> L2d2["L2: Generazione report"]
+    L1d --> L2d3["L2: Audit log"]
