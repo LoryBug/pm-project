@@ -8,7 +8,7 @@ parent: "Parte 1 — Approccio"
 ## Filosofia di selezione degli strumenti
 
 La scelta degli strumenti di project management è stata guidata dalla natura del progetto
-piuttosto che dall'abitudine: un progetto **adattivo (Scrum) con componente R&D**,
+piuttosto che dall'abitudine: un progetto **Iterative Scrum con adattamenti per R&D**,
 **code-centric**, a **budget zero** e con team distribuito. Da questi vincoli discende una
 toolchain **leggera, integrata col codice, versionata e riproducibile** ("docs-as-code"),
 coerente con il fatto che il prodotto stesso ha come obiettivo la *tracciabilità e
@@ -69,18 +69,15 @@ costituiscono a tutti gli effetti "strumenti" nel senso del corso:
 | **Scope bank / management reserve** | Gestione degli imprevisti |
 | **Risk register + risk response plan** | Gestione del rischio |
 
-## Evidenze (screenshot)
+## Evidenze documentali
 
-Le linee guida ammettono screenshot per documentare gli strumenti utilizzati. Si prevede di
-allegare le seguenti evidenze (da inserire in `img/` prima della consegna):
+Le evidenze principali sono costituite dagli artefatti versionati nel repository: documenti
+Markdown, diagrammi Mermaid e fogli di calcolo allegati. Gli screenshot non sono stati
+inclusi perché non necessari ai fini della consegna: le linee guida li indicano come
+possibili supporti, non come requisito obbligatorio.
 
-> 📷 *[Screenshot: board GitHub Projects con colonne To Do / In Progress / Review / Done]*
+I fogli di supporto alle stime e al monitoraggio sono allegati in formato editabile:
 
-> 📷 *[Screenshot: storico issue e pull request del repository]*
-
-Il foglio delle stime three-point/PERT è già allegato come file editabile con formule:
-[`documentazione/allegati/Stime_PERT.xlsx`](../documentazione/allegati/Stime_PERT.xlsx)
-(uno screenshot del foglio può essere aggiunto qui per la versione PDF).
-
-Per inserirle, sostituire ciascun segnaposto con un riferimento immagine, ad esempio:
-`![Board GitHub Projects](../img/screenshot-github-projects.png)`.
+- [`documentazione/allegati/Stime_PERT.xlsx`](../documentazione/allegati/Stime_PERT.xlsx)
+- [`documentazione/allegati/EVM_SPI_CPI.xlsx`](../documentazione/allegati/EVM_SPI_CPI.xlsx)
+- [`documentazione/allegati/Budget_Effort.xlsx`](../documentazione/allegati/Budget_Effort.xlsx)

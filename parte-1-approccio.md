@@ -6,7 +6,6 @@ has_children: true
 
 # Parte 1 — Descrizione dell'Approccio Utilizzato
 
-Spiegazione di come è stato gestito il progetto, con la giustificazione delle scelte
-metodologiche e l'illustrazione della documentazione allegata. Usa il menu laterale per
-navigare le singole sezioni (contesto, scoping, planning, execution, monitoring, closing,
-strumenti).
+Questa sezione descrive come è stato gestito il progetto, giustificando le scelte
+metodologiche adottate e collegandole alla documentazione prodotta nelle diverse fasi:
+scoping, planning, execution, monitoring, closing e strumenti di supporto.
