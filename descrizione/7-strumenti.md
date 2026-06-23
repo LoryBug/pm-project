@@ -1,4 +1,4 @@
----
+u---
 title: "7. Strumenti di Supporto"
 nav_order: 7
 parent: "Parte 1 — Approccio"
@@ -69,15 +69,3 @@ costituiscono a tutti gli effetti "strumenti" nel senso del corso:
 | **Scope bank / management reserve** | Gestione degli imprevisti |
 | **Risk register + risk response plan** | Gestione del rischio |
 
-## Evidenze documentali
-
-Le evidenze principali sono costituite dagli artefatti versionati nel repository: documenti
-Markdown, diagrammi Mermaid e fogli di calcolo allegati. Gli screenshot non sono stati
-inclusi perché non necessari ai fini della consegna: le linee guida li indicano come
-possibili supporti, non come requisito obbligatorio.
-
-I fogli di supporto alle stime e al monitoraggio sono allegati in formato editabile:
-
-- [`documentazione/allegati/Stime_PERT.xlsx`](../documentazione/allegati/Stime_PERT.xlsx)
-- [`documentazione/allegati/EVM_SPI_CPI.xlsx`](../documentazione/allegati/EVM_SPI_CPI.xlsx)
-- [`documentazione/allegati/Budget_Effort.xlsx`](../documentazione/allegati/Budget_Effort.xlsx)
