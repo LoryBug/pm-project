@@ -1,4 +1,4 @@
-u---
+---
 title: "7. Strumenti di Supporto"
 nav_order: 7
 parent: "Parte 1 — Approccio"
